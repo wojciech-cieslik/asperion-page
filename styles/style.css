@@ -55,6 +55,7 @@ body {
 .my-navbar li:hover, .my-navbar li.active {
   background-color: #af1000;
   color: #fff;
+  cursor: pointer;
 }
 
 .my-navbar a {
