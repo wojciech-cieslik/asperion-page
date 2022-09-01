@@ -246,6 +246,91 @@ body {
   border-bottom: 1px dashed #3333;
 }
 
+@media screen and (max-width: 980px)and (min-width: 601px) {
+  .my-wrapper {
+    width: 560px;
+  }
+
+  .my-logo {
+    margin: 10px 161px;
+  }
+
+  .my-navbar ul {
+    clear: both;
+    padding: 0;
+    width: 560px;
+    flex-direction: column;
+  }
+
+  .my-navbar li {
+    width: 560px;
+    text-align: left;
+    padding: 15px 0 15px 10px;
+    box-sizing: border-box;
+  }
+
+  .my-advantages-row {
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .my-advantage-article {
+    width: 280px;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .my-events-h2 {
+    text-align: center;
+  }
+
+  .my-events-row {
+    flex-wrap: wrap;
+  }
+
+  .my-event-article {
+    width: 280px;
+  }
+
+  .my-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .my-project-article {
+    padding: 10px 0;
+  }
+
+  .my-standards-articles {
+    width: auto;
+  }
+
+  .my-standards-article {
+    width: 280px;
+    padding: 0 18px 0 0;
+  }
+
+  .my-standards-article p {
+    margin-top: 15px;
+  }
+
+  .my-standards-article:last-child {
+    padding-left: 18px;
+  }
+
+  .my-hr {
+    width: 560px;
+  }
+
+  .my-images {
+    flex-wrap: wrap;
+  }
+
+  .my-left {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .my-wrapper {
     width: 400px;
